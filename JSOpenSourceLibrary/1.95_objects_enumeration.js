@@ -26,4 +26,4 @@ for(var i=0; i < properties.length; i+=1){
 	console.log(country[i] + ': ' + country[properties[i]]);
 }
 
-//Can't think of why it's coming back undefined.
+//TODO: Figure out - Can't think of why it's coming back undefined.
