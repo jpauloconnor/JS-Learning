@@ -1,6 +1,4 @@
-
-
-//you can update propperties
+//Update properties
 var pizza = {
 	//properties
 	size : "large",
@@ -8,7 +6,7 @@ var pizza = {
 	numberOfPieces: 8
 };
 
-//You can add properties
+//You can add/update properties with including them in the prototype
 pizza.cheese = "Mozarella";
 pizza['crust'] = "crispy";
 
