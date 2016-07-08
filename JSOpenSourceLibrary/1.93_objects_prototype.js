@@ -35,6 +35,7 @@ console.log(playerTwo.number);
 //all other objects down the chain
 
 
+//Try this in Chrome
 if (typeof Object.create !== 'function'){
 	Object.create = function(object){
 		var F = function (object){};
@@ -45,10 +46,9 @@ if (typeof Object.create !== 'function'){
 
 var playerThree = Object.create(protoTypePlayer);
 console.log("Player Three: ", playerThree);
-
 console.log(protoTypePlayer.name);
+
 protoTypePlayer.salary = 5000000;
 console.log(protoTypePlayer);
-//console.log(p);
 
 
