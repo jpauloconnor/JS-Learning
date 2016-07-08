@@ -7,7 +7,3 @@ console.log(arrayOfIndianaParks);
 for (var i=0; i < arrayOfIndianaParks.length; i++){
 	console.log(arrayOfIndianaParks[i]);
 }
-
-for(var park in arrayOfIndianaParks.length){
-	console.log(arrayOfIndianaParks[park]);
-}

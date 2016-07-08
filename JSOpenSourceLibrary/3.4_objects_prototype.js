@@ -23,7 +23,6 @@ console.log(playerTwo.number);
 //Since we haven't set the name prop for playerTwo, it will
 //go up the prototype chain.
 console.log(playerTwo.name);
-
 console.log(playerOne);
 console.log(playerTwo);
 console.log(playerTwo.rating);
