@@ -51,6 +51,7 @@ var negativeNumbers = -5;
 var notNum = isNaN("Gummy Worm");
 console.log("is it true that gummy worm is not a number? ->", notNum);
 
+//Infinity vlaue is some crazy humongous number 1.79769313486231570e+308.
 console.log(Infinity + 5);
 
 //A look ahead at prebuilt methods
