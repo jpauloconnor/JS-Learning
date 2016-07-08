@@ -22,11 +22,10 @@ var playerOne = {
 
 };
 
+//Do some in Chrome, too.
 console.log(typeof playerOne.name);
 console.log(typeof playerOne.rating);
 console.log(typeof playerOne.stats);
-
-//Do this one in chrome....
 console.log(typeof playerOne.sayName());
 console.log(typeof playerOne.name.toString());
 
