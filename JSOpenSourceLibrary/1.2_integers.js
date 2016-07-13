@@ -22,7 +22,7 @@ var birthYear = 1976;
 var numberOfGrammysIHaveWon = 0; 
 
 
-var newNumber = (z * numberOfGrammys);
+var newNumber = (z * numberOfGrammysIHaveWon);
 
 //Operators
 5 + 5;
