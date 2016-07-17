@@ -27,6 +27,7 @@ var johnQualls = {
 };
 
 
+
 //Like the properties, we access the functions with the dot operator.
 //When calling you need to add () at the end.
 johnQualls.greeting();

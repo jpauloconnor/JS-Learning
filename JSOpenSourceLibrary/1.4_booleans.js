@@ -1,5 +1,4 @@
 //Booleans are easy starting out.
-
 var tired = false;
 var awake = true;
 var hungry = true;
