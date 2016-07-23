@@ -9,7 +9,7 @@ var movie = {
 
 //Use . to access
 console.log(movie.name); 
-console.log(movie["name"]);//No one does this
+console.log(movie["name"]);//No one does this, but you can.
 
 //Quotes are optional around property names
 var band = {
@@ -19,7 +19,6 @@ var band = {
 
 console.log(band.name);
 console.log(band.numberAlbums);
-
 
 
 //Nesting - More complex stuff
