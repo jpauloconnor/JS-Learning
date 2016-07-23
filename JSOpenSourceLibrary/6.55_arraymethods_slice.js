@@ -8,6 +8,9 @@ console.log(numbers);
 var numbersTwo = numbers.slice(0,3);
 console.log(numbersTwo);
 
+//We made a shallow copy, so the 
+//original array is still in tact.
 console.log(numbers);
+
 var numbersThree = numbers.slice(4,9);
 console.log(numbersThree);
