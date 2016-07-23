@@ -16,7 +16,7 @@ function printName(first, last){
 
 	function makeFull(){
 		return intro + first + " " + last;
-	};
+	}
 	return makeFull();
 }
 

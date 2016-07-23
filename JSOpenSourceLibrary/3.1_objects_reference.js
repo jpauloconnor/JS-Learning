@@ -32,3 +32,5 @@ b = a;
 console.log("b:", b);
 c = b;
 console.log("c:", c);
+
+//They are not copies. They refer to a.

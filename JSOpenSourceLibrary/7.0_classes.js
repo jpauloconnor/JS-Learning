@@ -3,7 +3,7 @@
 //As of ECM6, we can now make traditional functions
 class Player {
 	constructor(name, number){
-		this.name = name
+		this.name = name,
 		this.number = number
 	}
 }

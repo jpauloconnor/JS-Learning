@@ -7,7 +7,7 @@ var sequentialPropertyWithEpisodeNamesInOrder = {
 	2 : "Wonderful Times",
 	3 : "Oh Great.",
 	4 : "Yes!!!"
-	}
+	};
 
 console.log(sequentialPropertyWithEpisodeNamesInOrder);
 

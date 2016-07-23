@@ -1,11 +1,11 @@
-//for in 
+//for in can loop over all of the property names in 
+//an object
 
 var country = {
 	capitol : "Tegucigalpa",
-	country: "Honduras",
+	name: "Honduras",
 	mainExport: "Bananas"
-}
-
+};
 //for in 
 //This enumerates everything
 for (var name in country){
