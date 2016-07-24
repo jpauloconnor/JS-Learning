@@ -6,8 +6,10 @@ var pizza = {
 	numberOfPieces: 8
 };
 
-//You can add/update properties with including them in the prototype
+//You can add/update properties and include them in the prototype
 pizza.cheese = "Mozarella";
+
+//No one uses this...
 pizza['crust'] = "crispy";
 
 console.log(pizza.cheese);

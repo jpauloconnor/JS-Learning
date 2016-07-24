@@ -1,4 +1,6 @@
-//All objects are linked to this:
+
+//All objects are linked to a 
+//prototype from which it can inherit properties:
 
 var protoTypePlayer = {
 	name : "",

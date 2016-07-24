@@ -6,7 +6,7 @@ for (var i = 0; i < cheeses.length; i++){
 	console.log(cheeses[i]);
 }
 
-meats.push("chorizo")
+meats.push("chorizo");
 for (var i = 0; i < meats.length; i++){
 	console.log(meats[i]);
 }
