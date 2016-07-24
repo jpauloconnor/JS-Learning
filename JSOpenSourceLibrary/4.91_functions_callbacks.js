@@ -26,6 +26,37 @@ send_request_asynchronously (request, function(resonse){
 //var setATimer = setTimeout(callback, delay);
 
 //This will print in 5
+
+//1
 var printNameInFiveSeconds = setTimeout(function(){
-	console.log("Paul");
+	console.log("Paul");	
+}, 2000);
+
+//2 Just to show that this is asynchronous
+console.log("Hey? Tell me your name.");
+var printNameInThreeSeconds = setTimeout(function(){
+	console.log("Paul");	
 }, 5000);
+console.log("Nice to meet you.");
+
+
+
+console.log("Loading item #1");
+var itemOne = setTimeout(function(){
+	console.log("Item #1 is ready.");
+}, 2000);
+
+console.log("Loading item #2");
+var itemTwo = setTimeout(function(){
+	console.log("Item #2 is ready");
+}, 1000);
+
+console.log("Loading item #3");
+var itemThree = setTimeout(function(){
+	console.log("Item #3 is ready");
+}, 5000);
+
+
+console.log("Ready to load something else.");
+
+
