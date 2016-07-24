@@ -21,4 +21,6 @@ var human = function (specific){
 };
 
 
-var paul = human({name: "paul"});
+var paul = human({name: "paul", saying: "What's up guys?"});
+console.log(paul.name());
+console.log(paul.says());

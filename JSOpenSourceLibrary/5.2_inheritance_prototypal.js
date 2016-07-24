@@ -12,7 +12,7 @@ var player = {
 		console.log(this.name + " of the " + this.team + this.sport + " stated: ");
 	}
 
-}
+};
 
 
 
@@ -24,6 +24,6 @@ luck.team = "Indianapolis Colts";
 luck.cryAfterSuperBowlWin = function(){
 	this.printQuote();
 	console.log('"We won! We won!"');
-}
+};
 
 luck.cryAfterSuperBowlWin();
