@@ -1,5 +1,23 @@
+//CLOSURE
 
+//A closure gives you access to the variables set in a function
+//after the function has completed and returned.
+//Helps keep variables from getting pushed into global scope.
+//Degree of protection. Variable can't be overwritten
 
+var friend = {};
+
+var setAge = function(myAge){
+	return{
+		getAge : function(){
+			return myAge;
+		}
+	};
+};
+
+friend.age = setAge(30);
+console.log(friend.age);
+console.log(friend.age.getAge());
 
 function Person(name){
 	this.name = name;
