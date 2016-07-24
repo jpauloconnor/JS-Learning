@@ -8,9 +8,14 @@
 var friend = {};
 
 var setAge = function(myAge){
+	//not using this yet
+	//private var will returned undefined	
+	var birthday = "8/11/76";
 	return{
 		getAge : function(){
+			console.log(myAge);
 			return myAge;
+		
 		}
 	};
 };
@@ -18,16 +23,21 @@ var setAge = function(myAge){
 friend.age = setAge(30);
 console.log(friend.age);
 console.log(friend.age.getAge());
+console.log(friend.birthday);
 
-function Person(name){
-	this.name = name;
-}
+var smartCar = {};
+var smartCarMPG = function(totalMiles, totalGallons){
+	return{
+		calculateMpg : function(){
+			console.log("MPG: ");
+			return totalMiles / totalGallons;
+		}
+	};
+};
 
-var paul = new Person("Paul");
-console.log(paul.name);
-
-
-
+smartCar.mpg = smartCarMPG(400, 15);
+console.log(smartCar.mpg);
+console.log(smartCar.mpg.calculateMpg());
 //Inner function has access to outer's variables & parameters
 function printName(first, last){
 	var intro = "My name is ";
