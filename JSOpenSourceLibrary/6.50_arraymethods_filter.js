@@ -16,9 +16,11 @@ var fifteenHundreds = inventors.filter(function(inventor){
 console.log(fifteenHundreds);
 
 //ES6 Arrow in single line
+//Does same as above. 
 var sixteenHundred = inventors.filter(inventor => (inventor.year >= 1600 && inventor.year < 1700));
 console.log(sixteenHundred);
 
 
 var albert = inventors.filter(inventor => (inventor.first =="Albert"));
 console.log(albert);
+

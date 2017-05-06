@@ -1,3 +1,20 @@
+//From the docs
+var fruit = ['cherries', 'apples', 'bananas'];
+fruit.sort(); // ['apples', 'bananas', 'cherries']
+console.log(fruit);
+
+var scores = [1, 10, 21, 2]; 
+scores.sort(); // [1, 10, 2, 21]
+// Note that 10 comes before 2,
+// because '10' comes before '2' in Unicode code point order.
+console.log(scores);
+
+var things = ['word', 'Word', '1 Word', '2 Words'];
+things.sort(); // ['1 Word', '2 Words', 'Word', 'word']
+// In Unicode, numbers come before upper case letters,
+// which come before lower case letters.
+console.log(things);
+
 var intArray = [6, 2, 5, 8, 10];
 console.log(intArray);
 
@@ -32,3 +49,29 @@ mixedArray.sort(function(a, b){
 });
 
 console.log(mixedArray);
+
+
+
+
+const nbaMVPs = [
+		{first: "Steph", last: "Curry", year: 2016},
+		{first: "Kevin", last: "Durant", year: 2014},
+		{first: "Steph", last: "Curry", year: 2015},
+		{first: "Lebron", last: "James", year: 2013},
+		{first: "Lebron", last: "James", year: 2012},
+		{first: "Derrick", last: "Rose", year: 2011}
+	]
+
+const byYear = nbaMVPs.sort(function(a, b){
+	if(a.year > b.year){
+		return 1;
+	} else {
+		return -1;
+	} 
+});
+
+console.log(byYear);
+
+console.log( "            ")
+const nbaMVPsTernary = nbaMVPs.sort((a,b) => a.year > b.year ? 1 : -1);
+console.log(nbaMVPsTernary);
