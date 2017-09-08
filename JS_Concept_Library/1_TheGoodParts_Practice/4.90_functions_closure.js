@@ -82,5 +82,16 @@ console.log(scoreMessage());
 
 
 
+function setLocation(city) {
+  var country = "France"; 
+
+  function printLocation() {       
+    console.log("You are in " + city + ", " + country);  
+  }
+
+  printLocation();
+}
+
+setLocation ("Paris");  // output: You are in Paris, France
 
 

@@ -25,3 +25,6 @@ console.log(studentArray); //Now has another person.
 countryArray.pop("China");
 console.log(countryArray); //Only has two values now
 
+
+
+

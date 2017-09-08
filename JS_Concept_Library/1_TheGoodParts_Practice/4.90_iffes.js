@@ -48,6 +48,6 @@ bass.playQuarterNotes();
 bass.playEigthNotes();
 bass.playSixteenthNotes();
 
-
-
-
+(function () {
+  console.log('Woohoo!');
+})();
