@@ -1,5 +1,7 @@
+//executing functions and scope
+
 //6 
-// 'use strict'
+//'use strict'
 
 //1
 var sound = "kaboom";
@@ -11,15 +13,19 @@ function outGoTheLights() {
 	console.log(sound);
 }
 
+
 function makeNightSounds(sound) {
 	//3
 	sound = "hoot hoot";
+	console.log(sound);
 	//4
 	wind = "whish";
 }
+makeNightSounds();
+//console.log(sound);
+//outGoTheLights();
+console.log(wind);
 
-console.log(sound);
-outGoTheLights();
 
 //Execution Perspective:
 //1 
@@ -40,7 +46,7 @@ outGoTheLights();
 	//Assign to that param
 
 //4
-//SM: Hey scope of makeNight I have an LHS reference called to wind
+//SM: Hey scope of makeNight I have an LHS reference called wind
 	// Heard of it?
 //SC: No I haven't. Go Fish. 
 	//Go out one level, outside of the scope of mNS.
