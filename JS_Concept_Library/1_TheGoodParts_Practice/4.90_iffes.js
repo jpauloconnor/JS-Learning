@@ -5,7 +5,7 @@ var myIIFEExampleWithUglyVariableName = (function(){
 	var aPrivateVar = "just some good ole private secrets that get exposed in the return only";
 	return {
 		sampleMethod: function(){
-			console.log( aPrivateVar );
+			console.log( "Private Variable: ", aPrivateVar );
 		}
 	};
 })();
@@ -13,7 +13,7 @@ var myIIFEExampleWithUglyVariableName = (function(){
 /* Notice that this breaks */
 	//console.log(aPrivateVar);
 
-//Notice that the data is expoed in the return...
+//Notice that the data is exposed in the return...
 myIIFEExampleWithUglyVariableName.sampleMethod();
 
 
@@ -27,7 +27,7 @@ var bass = (function() {
     var sixteenthNote = 'ta ca di me';
     
     return {
-        slogan: "Let's have a thump off!",
+        slogan: "Let's do an old fashioned thump off!",
 
         playQuarterNotes: function() {
             console.log( quarterNote );
@@ -49,5 +49,9 @@ bass.playEigthNotes();
 bass.playSixteenthNotes();
 
 (function () {
-  console.log('Woohoo!');
+var holler = 'Woohoo!'
+  console.log(holler);
 })();
+
+
+document.getElementById('#turn-red');
