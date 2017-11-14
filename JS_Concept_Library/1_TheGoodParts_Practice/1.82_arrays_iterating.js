@@ -1,5 +1,23 @@
 
+var youtubeVideos = ["Fee", "Balance", "Stuff", "More Stuff", "One More"];
+
+youtubeVideos.push('Push');
+console.log(youtubeVideos);
+youtubeVideos.pop();
+
+var pos = youtubeVideos.indexOf('Fee');
+var remove = youtubeVideos.splice(pos, 1);
+for (var i = 0; i < youtubeVideos.length; i++){
+	console.log(youtubeVideos[i]);
+}
+
+console.log("                ")
+console.log("                ")
+console.log("                ")
+
 //THis is tricky at first, but necessary.
+
+
 var movies = [ "The Godfather", "Cool Hand Luke", "The Matrix"];
 
 //We need a way to print out a long array. 
