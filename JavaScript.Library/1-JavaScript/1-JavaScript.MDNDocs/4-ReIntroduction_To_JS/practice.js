@@ -1,10 +1,8 @@
 // Reintro source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 
-
 //Types in JS: 
 //Number, String, Boolean, Function, Object, Sybmol
 //undefined & null, Array, Date, and RegExp
-
 
 // Number
 // String
